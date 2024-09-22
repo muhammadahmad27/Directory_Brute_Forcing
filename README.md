@@ -1,0 +1,2 @@
+•	The script performs directory enumeration on a given target URL using paths from a wordlist file. It validates the provided URL, ensuring it is complete and accessible. It checks the existence of the wordlist file specified by the usr. For each path in the wordlist, the script constructs the full URL and send a GET request to it. It prints detailed information about each request, including status code, content length, word count, and character count. The results are saved into files categorized by status codes within “responses” directory.
+
